@@ -1,0 +1,5 @@
+Q: What is the capital of Germany?
+A: Berlin
+Q: What is the capital of Italy?
+A: Rome
+Q: {question}
