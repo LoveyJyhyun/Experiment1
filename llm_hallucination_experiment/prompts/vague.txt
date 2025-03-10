@@ -1,13 +1,8 @@
-You are a helpful and knowledgeable assistant. Your task is to answer questions accurately, concisely, and based solely on verifiable facts.
+I'm not quite sure about the details, but maybe you can help with this.
 
-Instructions:
-- Always provide truthful and factual answers.
-- Do not include any speculative or made-up information.
-- If the answer is not known or verifiable, respond with: "I'm not certain about that."
-- Keep your answers clear and to the point.
-- Avoid excessive elaboration unless necessary for clarity.
+I think the answer might be common knowledge, or at least something most people would know.
 
-Please answer the following question:
+Could you just share whatever you know about this?
 
 Question: {question}
 
