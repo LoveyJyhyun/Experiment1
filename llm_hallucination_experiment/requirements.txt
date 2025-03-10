@@ -1,6 +1,24 @@
-transformers
-datasets
-evaluate
-matplotlib
-numpy
-pandas
+# Create a complete and detailed requirements.txt file with comments (if needed for GitHub)
+
+requirements_txt = """
+# Core Libraries
+transformers>=4.36.0       # For model loading and text generation
+datasets>=2.14.0           # To access benchmark datasets like TruthfulQA, QAFactEval
+evaluate>=0.4.0            # For scoring and evaluation tools
+torch>=2.0.0               # Required for LLMs
+sentencepiece              # Tokenizer support for some models
+accelerate                 # Efficient hardware utilization
+scikit-learn               # For clustering, analysis, and metrics
+numpy                      # Numerical operations
+pandas                     # Data processing
+matplotlib                 # Plotting HR, PS, MV graphs
+seaborn                    # Optional: Enhanced plotting
+krippendorff               # For inter-rater agreement (optional, human eval)
+"""
+
+# Save the file
+req_path = "/mnt/data/requirements.txt"
+with open(req_path, "w") as f:
+    f.write(requirements_txt.strip())
+
+req_path
